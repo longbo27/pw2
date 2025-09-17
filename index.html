@@ -1,0 +1,997 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Longbo Xian - Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span>LX</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link" data-en="Home" data-zh="首页"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-en="About" data-zh="关于我"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#experience"
+              class="nav-link"
+              data-en="Experience"
+              data-zh="经历"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link" data-en="Skills" data-zh="技能"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#languages"
+              class="nav-link"
+              data-en="Languages"
+              data-zh="语言能力"
+              >Languages</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#projects"
+              class="nav-link"
+              data-en="Projects"
+              data-zh="项目"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#website" class="nav-link" data-en="Website" data-zh="网站"
+              >Website</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-en="Contact" data-zh="联系"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="language-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="zh">中文</button>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="greeting" data-en="Hello, I'm" data-zh="你好，我是"
+              >Hello, I'm</span
+            >
+            <span class="name">Longbo Xian</span>
+          </h1>
+          <p
+            class="hero-subtitle"
+            data-en="University of Toronto Scarborough BBA Student | Business Analyst | Project Management Expert"
+            data-zh="多伦多大学士嘉堡分校 BBA 学生 | 商业分析师 | 项目管理专家"
+          >
+            University of Toronto Scarborough BBA Student | Business Analyst |
+            Project Management Expert
+          </p>
+          <p
+            class="hero-description"
+            data-en="Expert at translating ambiguous requirements into clear plans, KPIs, and results. Proficient in Excel and Power Query, with basic Power BI and SQL/Python skills, capable of clear stakeholder communication in both English and Mandarin."
+            data-zh="擅长将模糊需求转化为清晰的计划、KPI和结果。精通Excel和Power Query，具备基础Power BI和SQL/Python技能，能够用中英文进行清晰的利益相关者沟通。"
+          >
+            Expert at translating ambiguous requirements into clear plans, KPIs,
+            and results. Proficient in Excel and Power Query, with basic Power
+            BI and SQL/Python skills, capable of clear stakeholder communication
+            in both English and Mandarin.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="#about"
+              class="btn btn-primary"
+              data-en="Learn More"
+              data-zh="了解更多"
+              >Learn More</a
+            >
+            <a
+              href="#contact"
+              class="btn btn-secondary"
+              data-en="Contact Me"
+              data-zh="联系我"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-graduation-cap"></i>
+              <h3 data-en="Education" data-zh="教育背景">Education</h3>
+              <p
+                data-en="University of Toronto Scarborough&#10;BBA Management"
+                data-zh="多伦多大学士嘉堡分校&#10;BBA 管理学"
+              >
+                University of Toronto Scarborough BBA Management
+              </p>
+            </div>
+          </div>
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-chart-line"></i>
+              <h3 data-en="Technical Skills" data-zh="专业技能">
+                Technical Skills
+              </h3>
+              <p
+                data-en="Advanced Excel&#10;Data Analysis & Visualization"
+                data-zh="Excel高级应用&#10;数据分析与可视化"
+              >
+                Advanced Excel Data Analysis & Visualization
+              </p>
+            </div>
+          </div>
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-project-diagram"></i>
+              <h3 data-en="Project Management" data-zh="项目管理">
+                Project Management
+              </h3>
+              <p
+                data-en="Requirements Analysis&#10;Team Coordination"
+                data-zh="需求分析&#10;团队协调"
+              >
+                Requirements Analysis Team Coordination
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title" data-en="About Me" data-zh="关于我">
+          About Me
+        </h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3 data-en="Personal Profile" data-zh="个人简介">
+              Personal Profile
+            </h3>
+            <p
+              data-en="I am a BBA student at the University of Toronto Scarborough, specializing in Management and Business Analytics. I excel at translating complex business requirements into executable plans and key performance indicators."
+              data-zh="我是一名多伦多大学士嘉堡分校的BBA学生，专注于管理学和商业分析。我擅长将复杂的业务需求转化为可执行的计划和关键绩效指标。"
+            >
+              I am a BBA student at the University of Toronto Scarborough,
+              specializing in Management and Business Analytics. I excel at
+              translating complex business requirements into executable plans
+              and key performance indicators.
+            </p>
+            <p
+              data-en="In past projects, I successfully coordinated the IRCC compliance website development project, translating compliance requirements into user stories and acceptance criteria, and led a small team to deliver the required website and basic e-commerce functionality on time."
+              data-zh="在过去的项目中，我成功协调了IRCC合规网站建设项目，将合规要求转化为用户故事和验收标准，并带领小团队按时交付了符合要求的网站和基础电商功能。"
+            >
+              In past projects, I successfully coordinated the IRCC compliance
+              website development project, translating compliance requirements
+              into user stories and acceptance criteria, and led a small team to
+              deliver the required website and basic e-commerce functionality on
+              time.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <span class="stat-number" data-target="3" data-suffix="+"
+                  >3+</span
+                >
+                <span
+                  class="stat-label"
+                  data-en="Years Experience"
+                  data-zh="年经验"
+                  >Years Experience</span
+                >
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="10" data-suffix="+"
+                  >10+</span
+                >
+                <span
+                  class="stat-label"
+                  data-en="Projects Completed"
+                  data-zh="项目完成"
+                  >Projects Completed</span
+                >
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-target="3">3</span>
+                <span class="stat-label" data-en="Languages" data-zh="语言"
+                  >Languages</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 经历部分 -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title" data-en="Work Experience" data-zh="工作经历">
+          Work Experience
+        </h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3 data-en="Robotic Sales Specialist" data-zh="机器人销售专家">
+                Robotic Sales Specialist
+              </h3>
+              <h4>Miner Handcrafts Co. | Regina, SK | 2022–2023</h4>
+              <ul>
+                <li
+                  data-en="Built weekly KPI/status packs (variance analysis, risks, next actions) to brief managers—improved on-time delivery and accountability"
+                  data-zh="构建每周KPI/状态包（差异分析、风险、下一步行动）向经理汇报，提高按时交付和问责制"
+                >
+                  Built weekly KPI/status packs (variance analysis, risks, next
+                  actions) to brief managers—improved on-time delivery and
+                  accountability
+                </li>
+                <li
+                  data-en="Maintained daily reconciliations with EOD checklists and exception logs—zero-variance outcomes and audit-ready trails"
+                  data-zh="维护日常对账，使用EOD检查清单和异常日志，实现零差异结果和审计就绪的跟踪"
+                >
+                  Maintained daily reconciliations with EOD checklists and
+                  exception logs—zero-variance outcomes and audit-ready trails
+                </li>
+                <li
+                  data-en="Standardized SOPs and cross-team handoffs (quote → pick/pack → ship confirm), cutting rework and cycle time"
+                  data-zh="标准化SOP和跨团队交接（报价→拣货/包装→发货确认），减少返工和周期时间"
+                >
+                  Standardized SOPs and cross-team handoffs (quote → pick/pack →
+                  ship confirm), cutting rework and cycle time
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3 data-en="Project Manager" data-zh="项目经理">
+                Project Manager
+              </h3>
+              <h4>
+                TianQi Technology — IRCC-Compliance Website & E-Commerce Build |
+                2022-2023
+              </h4>
+              <ul>
+                <li
+                  data-en="Translated IRCC website requirements into user stories and acceptance criteria (privacy, accessibility, security, records)"
+                  data-zh="将IRCC网站要求转化为用户故事和验收标准（隐私、可访问性、安全、记录）"
+                >
+                  Translated IRCC website requirements into user stories and
+                  acceptance criteria (privacy, accessibility, security,
+                  records)
+                </li>
+                <li
+                  data-en="Recruited and coordinated a small web team; managed timeline, vendors, content, QA, go-live; maintained versioned documentation"
+                  data-zh="招募和协调小型网络团队；管理时间线、供应商、内容、QA、上线；维护版本化文档"
+                >
+                  Recruited and coordinated a small web team; managed timeline,
+                  vendors, content, QA, go-live; maintained versioned
+                  documentation
+                </li>
+                <li
+                  data-en="Delivered evidence package to pass the IRCC website compliance check (Nov 2023) and launched a basic e-commerce capability"
+                  data-zh="交付证据包通过IRCC网站合规检查（2023年11月）并启动基础电商功能"
+                >
+                  Delivered evidence package to pass the IRCC website compliance
+                  check (Nov 2023) and launched a basic e-commerce capability
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 技能部分 -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title" data-en="Core Skills" data-zh="核心技能">
+          Core Skills
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 data-en="Business & Operations" data-zh="商业与运营">
+              Business & Operations
+            </h3>
+            <div class="skill-items">
+              <span
+                class="skill-tag"
+                data-en="Requirements Gathering"
+                data-zh="需求收集"
+                >Requirements Gathering</span
+              >
+              <span
+                class="skill-tag"
+                data-en="Process Mapping"
+                data-zh="流程映射"
+                >Process Mapping</span
+              >
+              <span
+                class="skill-tag"
+                data-en="SOP Development"
+                data-zh="SOP制定"
+                >SOP Development</span
+              >
+              <span class="skill-tag" data-en="RACI Matrix" data-zh="RACI矩阵"
+                >RACI Matrix</span
+              >
+              <span class="skill-tag" data-en="OKR/KPI" data-zh="OKR/KPI"
+                >OKR/KPI</span
+              >
+              <span
+                class="skill-tag"
+                data-en="Vendor Coordination"
+                data-zh="供应商协调"
+                >Vendor Coordination</span
+              >
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 data-en="Finance & Analytics" data-zh="财务与分析">
+              Finance & Analytics
+            </h3>
+            <div class="skill-items">
+              <span
+                class="skill-tag"
+                data-en="Variance Analysis"
+                data-zh="差异分析"
+                >Variance Analysis</span
+              >
+              <span class="skill-tag" data-en="Forecasting" data-zh="预测建模"
+                >Forecasting</span
+              >
+              <span class="skill-tag" data-en="Budgeting" data-zh="预算基础"
+                >Budgeting</span
+              >
+              <span
+                class="skill-tag"
+                data-en="KPI Dashboards"
+                data-zh="KPI仪表板"
+                >KPI Dashboards</span
+              >
+              <span class="skill-tag" data-en="Reconciliation" data-zh="对账"
+                >Reconciliation</span
+              >
+              <span class="skill-tag" data-en="Cost Tracking" data-zh="成本跟踪"
+                >Cost Tracking</span
+              >
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 data-en="Technical Tools" data-zh="技术工具">
+              Technical Tools
+            </h3>
+            <div class="skill-items">
+              <span
+                class="skill-tag"
+                data-en="Advanced Excel"
+                data-zh="Excel高级应用"
+                >Advanced Excel</span
+              >
+              <span
+                class="skill-tag"
+                data-en="Power Query"
+                data-zh="Power Query"
+                >Power Query</span
+              >
+              <span class="skill-tag" data-en="Power BI" data-zh="Power BI"
+                >Power BI</span
+              >
+              <span class="skill-tag" data-en="SQL Basics" data-zh="SQL基础"
+                >SQL Basics</span
+              >
+              <span
+                class="skill-tag"
+                data-en="Python/pandas"
+                data-zh="Python/pandas"
+                >Python/pandas</span
+              >
+              <span class="skill-tag" data-en="SharePoint" data-zh="SharePoint"
+                >SharePoint</span
+              >
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 data-en="Risk Management" data-zh="风险管理">
+              Risk Management
+            </h3>
+            <div class="skill-items">
+              <span class="skill-tag" data-en="RCSA" data-zh="RCSA">RCSA</span>
+              <span
+                class="skill-tag"
+                data-en="Risk Registers"
+                data-zh="风险登记"
+                >Risk Registers</span
+              >
+              <span
+                class="skill-tag"
+                data-en="Third-Party Risk"
+                data-zh="第三方风险"
+                >Third-Party Risk</span
+              >
+              <span class="skill-tag" data-en="SOX ITGC" data-zh="SOX ITGC"
+                >SOX ITGC</span
+              >
+              <span class="skill-tag" data-en="SOC 2" data-zh="SOC 2"
+                >SOC 2</span
+              >
+              <span class="skill-tag" data-en="ISO 27001" data-zh="ISO 27001"
+                >ISO 27001</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 语言能力部分 -->
+    <section id="languages" class="languages-section">
+      <div class="container">
+        <h2
+          class="section-title"
+          data-en="Language Proficiency"
+          data-zh="语言能力"
+        >
+          Language Proficiency
+        </h2>
+        <p
+          class="languages-intro"
+          data-en="I switch between English and Mandarin effortlessly and I'm steadily building German proficiency to support cross-border collaboration."
+          data-zh="我可以在英语和中文之间自如切换，并且正在稳步提升德语水平，以便支持跨境协作。"
+        >
+          I switch between English and Mandarin effortlessly and I'm steadily
+          building German proficiency to support cross-border collaboration.
+        </p>
+        <div class="language-grid">
+          <div class="language-card">
+            <div class="language-header">
+              <i class="fas fa-comments"></i>
+              <div>
+                <h3 data-en="English" data-zh="英语">English</h3>
+                <span
+                  class="language-level"
+                  data-en="Perfect for presentations, stakeholder workshops, and analytical storytelling."
+                  data-zh="完美应用于演示、利益相关者研讨会和分析汇报。"
+                  >Perfect for presentations, stakeholder workshops, and
+                  analytical storytelling.</span
+                >
+              </div>
+            </div>
+            <div class="language-progress" data-progress="1">
+              <div class="progress-track">
+                <div class="progress-bar"></div>
+              </div>
+              <span
+                class="progress-label"
+                data-en="100% mastery"
+                data-zh="100% 掌握"
+                >100% mastery</span
+              >
+            </div>
+          </div>
+          <div class="language-card">
+            <div class="language-header">
+              <i class="fas fa-language"></i>
+              <div>
+                <h3 data-en="Mandarin Chinese" data-zh="中文普通话">
+                  Mandarin Chinese
+                </h3>
+                <span
+                  class="language-level"
+                  data-en="Perfect fluency for negotiations, documentation, and cross-cultural alignment."
+                  data-zh="完美流利，适用于商务洽谈、文件撰写和跨文化协作。"
+                  >Perfect fluency for negotiations, documentation, and
+                  cross-cultural alignment.</span
+                >
+              </div>
+            </div>
+            <div class="language-progress" data-progress="1">
+              <div class="progress-track">
+                <div class="progress-bar"></div>
+              </div>
+              <span
+                class="progress-label"
+                data-en="100% mastery"
+                data-zh="100% 掌握"
+                >100% mastery</span
+              >
+            </div>
+          </div>
+          <div class="language-card">
+            <div class="language-header">
+              <i class="fas fa-globe"></i>
+              <div>
+                <h3 data-en="German" data-zh="德语">German</h3>
+                <span
+                  class="language-level"
+                  data-en="Actively learning—currently comfortable with 25% of business use cases."
+                  data-zh="积极学习中——目前可应对约25%的商务场景。"
+                  >Actively learning—currently comfortable with 25% of business
+                  use cases.</span
+                >
+              </div>
+            </div>
+            <div class="language-progress" data-progress="0.25">
+              <div class="progress-track">
+                <div class="progress-bar"></div>
+              </div>
+              <span
+                class="progress-label"
+                data-en="25% in progress"
+                data-zh="25% 进度"
+                >25% in progress</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 项目部分 -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2
+          class="section-title"
+          data-en="Featured Projects"
+          data-zh="精选项目"
+        >
+          Featured Projects
+        </h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="project-content">
+              <h3
+                data-en="TianQi Technology IRCC-Compliance Website"
+                data-zh="TianQi Technology IRCC合规网站"
+              >
+                TianQi Technology IRCC-Compliance Website
+              </h3>
+              <p
+                data-en="Translated IRCC compliance requirements into executable website development plan, successfully passed compliance check and launched e-commerce functionality."
+                data-zh="将IRCC合规要求转化为可执行的网站建设计划，成功通过合规检查并启动电商功能。"
+              >
+                Translated IRCC compliance requirements into executable website
+                development plan, successfully passed compliance check and
+                launched e-commerce functionality.
+              </p>
+              <div class="project-tags">
+                <span
+                  class="tag"
+                  data-en="Project Management"
+                  data-zh="项目管理"
+                  >Project Management</span
+                >
+                <span class="tag" data-en="Compliance" data-zh="合规"
+                  >Compliance</span
+                >
+                <span class="tag" data-en="Web Development" data-zh="网站开发"
+                  >Web Development</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="project-content">
+              <h3 data-en="KPI Dashboard System" data-zh="KPI仪表板系统">
+                KPI Dashboard System
+              </h3>
+              <p
+                data-en="Built weekly KPI/status packs for Miner Handcrafts, significantly improving on-time delivery and accountability."
+                data-zh="为Miner Handcrafts构建每周KPI/状态包，显著改善按时交付和问责制。"
+              >
+                Built weekly KPI/status packs for Miner Handcrafts,
+                significantly improving on-time delivery and accountability.
+              </p>
+              <div class="project-tags">
+                <span class="tag" data-en="Data Analysis" data-zh="数据分析"
+                  >Data Analysis</span
+                >
+                <span class="tag" data-en="Excel" data-zh="Excel">Excel</span>
+                <span class="tag" data-en="KPI Management" data-zh="KPI管理"
+                  >KPI Management</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <div class="project-content">
+              <h3
+                data-en="Process Standardization Project"
+                data-zh="流程标准化项目"
+              >
+                Process Standardization Project
+              </h3>
+              <p
+                data-en="Standardized SOPs and cross-team handoff processes, reducing rework and cycle time while improving operational efficiency."
+                data-zh="标准化SOP和跨团队交接流程，减少返工和周期时间，提高运营效率。"
+              >
+                Standardized SOPs and cross-team handoff processes, reducing
+                rework and cycle time while improving operational efficiency.
+              </p>
+              <div class="project-tags">
+                <span
+                  class="tag"
+                  data-en="Process Optimization"
+                  data-zh="流程优化"
+                  >Process Optimization</span
+                >
+                <span class="tag" data-en="SOP" data-zh="SOP">SOP</span>
+                <span
+                  class="tag"
+                  data-en="Operations Management"
+                  data-zh="运营管理"
+                  >Operations Management</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card featured-project">
+            <div class="project-image">
+              <i class="fas fa-plane"></i>
+            </div>
+            <div class="project-content">
+              <h3
+                data-en="Longbo.cloud - Travel & Points Blog"
+                data-zh="Longbo.cloud - 旅行与积分博客"
+              >
+                Longbo.cloud - Travel & Points Blog
+              </h3>
+              <p
+                data-en="A comprehensive travel and credit card points blog covering airline miles, hotel status, credit card strategies, and travel tips. Features trending articles on Aeroplan, AmEx Membership Rewards, and exclusive deals."
+                data-zh="一个全面的旅行和信用卡积分博客，涵盖航空里程、酒店会员、信用卡策略和旅行技巧。特色文章包括Aeroplan、AmEx会员奖励和独家优惠。"
+              >
+                A comprehensive travel and credit card points blog covering
+                airline miles, hotel status, credit card strategies, and travel
+                tips. Features trending articles on Aeroplan, AmEx Membership
+                Rewards, and exclusive deals.
+              </p>
+              <div class="project-tags">
+                <span class="tag" data-en="Web Development" data-zh="网站开发"
+                  >Web Development</span
+                >
+                <span class="tag" data-en="Content Creation" data-zh="内容创作"
+                  >Content Creation</span
+                >
+                <span class="tag" data-en="Travel Industry" data-zh="旅游行业"
+                  >Travel Industry</span
+                >
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://longbo.cloud"
+                  target="_blank"
+                  class="project-link"
+                  data-en="Visit Website"
+                  data-zh="访问网站"
+                  >Visit Website</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 网站展示部分 -->
+    <section id="website" class="website-showcase">
+      <div class="container">
+        <h2 class="section-title" data-en="My Website" data-zh="我的网站">
+          My Website
+        </h2>
+        <div class="website-content">
+          <div class="website-info">
+            <div class="website-header">
+              <h3 data-en="longbo.cloud" data-zh="longbo.cloud">
+                longbo.cloud
+              </h3>
+              <p
+                class="website-tagline"
+                data-en="Fly, Card, Point - Ideas about Airline, Credit card, & Points!"
+                data-zh="飞行、卡片、积分 - 关于航空、信用卡和积分的想法！"
+              >
+                Fly, Card, Point - Ideas about Airline, Credit card, & Points!
+              </p>
+            </div>
+            <div class="website-description">
+              <p
+                data-en="A comprehensive travel and credit card points blog that covers everything from airline miles to hotel status matches. Features trending articles, exclusive deals, and expert insights on maximizing travel rewards."
+                data-zh="一个全面的旅行和信用卡积分博客，涵盖从航空里程到酒店会员匹配的一切。特色文章、独家优惠和专家见解，帮助最大化旅行奖励。"
+              >
+                A comprehensive travel and credit card points blog that covers
+                everything from airline miles to hotel status matches. Features
+                trending articles, exclusive deals, and expert insights on
+                maximizing travel rewards.
+              </p>
+            </div>
+            <div class="website-features">
+              <div class="feature-item">
+                <i class="fas fa-plane"></i>
+                <span data-en="Airline Miles & Status" data-zh="航空里程与会员"
+                  >Airline Miles & Status</span
+                >
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-credit-card"></i>
+                <span data-en="Credit Card Strategies" data-zh="信用卡策略"
+                  >Credit Card Strategies</span
+                >
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-hotel"></i>
+                <span data-en="Hotel Elite Status" data-zh="酒店会员"
+                  >Hotel Elite Status</span
+                >
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-gift"></i>
+                <span data-en="Exclusive Deals" data-zh="独家优惠"
+                  >Exclusive Deals</span
+                >
+              </div>
+            </div>
+            <div class="website-stats">
+              <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label" data-en="Articles" data-zh="文章"
+                  >Articles</span
+                >
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">12</span>
+                <span class="stat-label" data-en="Categories" data-zh="分类"
+                  >Categories</span
+                >
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span
+                  class="stat-label"
+                  data-en="Free Content"
+                  data-zh="免费内容"
+                  >Free Content</span
+                >
+              </div>
+            </div>
+            <div class="website-actions">
+              <a
+                href="https://longbo.cloud"
+                target="_blank"
+                class="btn btn-primary"
+                data-en="Visit Website"
+                data-zh="访问网站"
+                >Visit Website</a
+              >
+              <a
+                href="https://longbo.cloud"
+                target="_blank"
+                class="btn btn-secondary"
+                data-en="Read Latest Posts"
+                data-zh="阅读最新文章"
+                >Read Latest Posts</a
+              >
+            </div>
+          </div>
+          <div class="website-preview">
+            <div class="preview-card">
+              <div class="preview-header">
+                <div class="preview-dots">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="preview-url">longbo.cloud</div>
+              </div>
+              <div class="preview-content">
+                <div class="preview-article">
+                  <h4
+                    data-en="Big News: Aeroplan Offers Up to 100% Bonus"
+                    data-zh="重大新闻：Aeroplan提供高达100%奖励"
+                  >
+                    Big News: Aeroplan Offers Up to 100% Bonus
+                  </h4>
+                  <p
+                    data-en="Aeroplan, Air Canada's loyalty program, is kicking off the new year with an incredible offer..."
+                    data-zh="Aeroplan，加拿大航空的忠诚计划，以令人难以置信的优惠开启新年..."
+                  >
+                    Aeroplan, Air Canada's loyalty program, is kicking off the
+                    new year with an incredible offer...
+                  </p>
+                </div>
+                <div class="preview-article">
+                  <h4
+                    data-en="Comprehensive Guide to AmEx Membership Rewards"
+                    data-zh="AmEx会员奖励综合指南"
+                  >
+                    Comprehensive Guide to AmEx Membership Rewards
+                  </h4>
+                  <p
+                    data-en="American Express Membership Rewards (MR) is one of the most generous..."
+                    data-zh="美国运通会员奖励(MR)是最慷慨的之一..."
+                  >
+                    American Express Membership Rewards (MR) is one of the most
+                    generous...
+                  </p>
+                </div>
+                <div class="preview-article">
+                  <h4
+                    data-en="BMO Offers Unprecedented Deal"
+                    data-zh="BMO提供前所未有的优惠"
+                  >
+                    BMO Offers Unprecedented Deal
+                  </h4>
+                  <p
+                    data-en="BMO has launched a limited-time offer that's one of the best in its history..."
+                    data-zh="BMO推出了限时优惠，这是其历史上最好的之一..."
+                  >
+                    BMO has launched a limited-time offer that's one of the best
+                    in its history...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title" data-en="Contact Me" data-zh="联系我">
+          Contact Me
+        </h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 data-en="Let's Start a Conversation" data-zh="让我们开始对话">
+              Let's Start a Conversation
+            </h3>
+            <p
+              data-en="I'm passionate about turning complex business challenges into clear, actionable solutions. With a strong foundation in data analysis and project management, I'm always excited to collaborate on meaningful projects and learn from experienced professionals."
+              data-zh="我热衷于将复杂的商业挑战转化为清晰、可执行的解决方案。凭借在数据分析和项目管理方面的坚实基础，我总是热衷于参与有意义的项目，并向经验丰富的专业人士学习。"
+            >
+              I'm passionate about turning complex business challenges into
+              clear, actionable solutions. With a strong foundation in data
+              analysis and project management, I'm always excited to collaborate
+              on meaningful projects and learn from experienced professionals.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:xian@longbo.cloud">xian@longbo.cloud</a>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Toronto, ON</span>
+              </div>
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://linkedin.com/in/longbo-xian" target="_blank"
+                  >linkedin.com/in/longbo-xian</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  data-placeholder-en="Your Name"
+                  data-placeholder-zh="您的姓名"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  data-placeholder-en="Your Email"
+                  data-placeholder-zh="您的邮箱"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  data-placeholder-en="Subject"
+                  data-placeholder-zh="主题"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Message"
+                  data-placeholder-en="Message"
+                  data-placeholder-zh="消息内容"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary"
+                data-en="Send Message"
+                data-zh="发送消息"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container">
+        <p
+          data-en="&copy; 2024 Longbo Xian. All rights reserved."
+          data-zh="&copy; 2024 Longbo Xian. 保留所有权利。"
+        >
+          &copy; 2024 Longbo Xian. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact-form.js"></script>
+  </body>
+</html>
